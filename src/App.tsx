@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 // import WorkoutForm from "./components/WorkoutForm";
 import SliderWithSwiper from "./components/Slider";
 import "./App.css"
