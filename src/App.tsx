@@ -1,21 +1,21 @@
 import React, { useState } from "react";
-import WorkoutForm from "./components/WorkoutForm";
+// import WorkoutForm from "./components/WorkoutForm";
 import SliderWithSwiper from "./components/Slider";
 import "./App.css"
-import CalendarForm from "./components/Calendar";
-type Workout = {
-  name: string;
-  pushupsCount: number;
-  date: string;
-};
+// import CalendarForm from "./components/Calendar";
+// type Workout = {
+//   name: string;
+//   pushupsCount: number;
+//   date: string;
+// };
 
 const App: React.FC = () => {
-  const [workout, setWorkout] = useState<Workout | null>(null);
+  // const [workout, setWorkout] = useState<Workout | null>(null);
 
-  const handleFormSubmit = (data: Workout) => {
-    setWorkout(data);
-    console.log("Workout Data: ", data);
-  };
+  // const handleFormSubmit = (data: Workout) => {
+  //   setWorkout(data);
+  //   console.log("Workout Data: ", data);
+  // };
 
   return (
     <div>
