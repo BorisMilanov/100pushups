@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
-import "./WorkoutForm.css"; // Import the CSS file
+import "./WorkoutForm.css"; 
 
 type WorkoutFormData = {
   name: string;
